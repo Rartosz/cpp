@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int petlaWhile = 1;
+   
+	while (petlaWhile<10)
+	{
+		cout << "Przyklad wypisania z pętli while nr " << petlaWhile << endl;
+
+		petlaWhile++;
+	}
+
+
+
+
+    return 0;
+}
