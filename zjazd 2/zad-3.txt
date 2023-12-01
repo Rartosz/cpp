@@ -4,16 +4,24 @@ using namespace std;
 int main() {
 
 	int petlaWhile = 1;
-   
-	while (petlaWhile<10)
+	int petlaDoWhite = 1;
+
+	while (petlaWhile < 10)
 	{
 		cout << "Przyklad wypisania z pętli while nr " << petlaWhile << endl;
 
 		petlaWhile++;
 	}
 
+	do
+	{
+		cout << "Przyklad wypisania z pętli do-while nr " << petlaDoWhite << endl;
+
+		petlaDoWhite++;
+
+	} while (petlaDoWhite < 10);
 
 
 
-    return 0;
+	return 0;
 }
