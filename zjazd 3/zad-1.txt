@@ -3,18 +3,20 @@
 using namespace std;
 
 
-void wyswietlHelloWorld(int iloscRazy = 1) 
+void wyswietlHelloWorld(int iloscRazy = 1)
 {
-    for (int i = 0; i < iloscRazy; i++) 
+    for (int i = 0; i < iloscRazy; i++)
     {
-       cout << "Hello, World!" << endl;
+        cout << "Hello, World!" << endl;
     }
 }
 
-int main() 
+int main()
 {
 
     wyswietlHelloWorld();
+
+    cout << endl;
 
     wyswietlHelloWorld(3);
 
